@@ -1,0 +1,102 @@
+
+.container-activity{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container-activity fieldset{
+	border: none;
+}
+.container-activity legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.container-activity label {
+	display: block;
+	margin-bottom: 8px;
+}
+.container-activity input[type="text"],
+.container-activity input[type="date"],
+.container-activity input[type="datetime"],
+.container-activity input[type="email"],
+.container-activity input[type="number"],
+.container-activity input[type="search"],
+.container-activity input[type="time"],
+.container-activity input[type="url"],
+.container-activity textarea,
+.container-activity select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: #FDE3D7;
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#FDE3D7;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.container-activity input[type="text"]:focus,
+.container-activity input[type="date"]:focus,
+.container-activity input[type="datetime"]:focus,
+.container-activity input[type="email"]:focus,
+.container-activity input[type="number"]:focus,
+.container-activity input[type="search"]:focus,
+.container-activity input[type="time"]:focus,
+.container-activity input[type="url"]:focus,
+.container-activity textarea:focus,
+.container-activity select:focus{
+	background: #d2d9dd;
+}
+.container-activity select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.container-activity .number {
+	background: #FDE3D7;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.container-activity input[type="submit"],
+.container-activity input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #CAAFA0;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #CAAFA0;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.container-activity input[type="submit"]:hover,
+.container-activity input[type="button"]:hover
+{
+	background: #42230D;
+}
